@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../UX_UI_HW_19/css/index.css">
+<link rel="stylesheet" href="../UX_UI_HW_19/js/index.js">
+<link href="https://db.onlinewebfonts.com/c/278d21d79635e39851472d81371fa2aa?family=DK+Nouveau+Crayon+Regular" rel="stylesheet">
+<link href="https://db.onlinewebfonts.com/c/699dc1e4167e2bdae611e413fd4a8fe0?family=Crayon+Works+DEMO+Regular" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navi">
+    <ul id="logo"><img src="../UX_UI_HW_19/images/logo.png"></ul>
+    <ul class="navigation">
+        <button class="MORE hovering" id="bar" onclick="myfunction()">MORE</button>
+        <span class="toggleMenu" id="items"> 
+            <a href="#" class="w3-bar-item w3-button hovering">About</a>
+            <a href="#" class="w3-bar-item w3-button hovering">Resume</a>
+            <a href="#" class="w3-bar-item w3-button hovering">LinkedIn</a>
+            <a href="#" class="w3-bar-item w3-button hovering">Contact</a>
+        </span>
+    </ul>
+
+    <script>
+        function myfunction(){
+            var x = document.getElementById("items");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            }else{
+                x.style.display = "block";
+            }
+            var y = document.getElementById("bar");
+            if (y.style.display === "none") {
+                y.style.display = "block";
+            }else{
+                y.style.display = "none";
+            }
+        }
+    </script>
+
+</div>
+
+<section class="mainpage">
+    <div class="title">
+        <h1>Project - </h1>
+        <h2> UX/UI Design</h2>
+    </div>
+    <div class="titleinfo">
+        <img src="../UX_UI_HW_19/images/LineCat.png" id="LineCat">
+        <div class="itemmain">
+            <div class="item" id="back1">
+            <h2 >SADHS Redesign</h2>
+            <h3>UX/UI - Web Design</h3>
+        </div></div>
+        <img src="../UX_UI_HW_19/images/Line.png" id="Line">
+        <div class="item" id="back2">
+            <h2>FTC Redesign</h2>
+            <h3>UX/UI - Web Design</h3>
+        </div>
+        <img src="../UX_UI_HW_19/images/Line.png" id="Line">
+        <div class="item" id="back3">
+            <h2>SeatMe</h2>
+            <h3>UX/UI - App Design</h3>
+        </div>
+        <img src="../UX_UI_HW_19/images/Line.png" id="Line">
+    </div>
+    <img src="../UX_UI_HW_19/images/small ftc.png" id="smallftc">
+    <img src="../UX_UI_HW_19/images/small sdhs.png" id="smallsdhs">
+    <img src="../UX_UI_HW_19/images/small seatme.png" id="smallseatme">
+
+    <script src="../UX_UI_HW_19/js/index.js"></script>
+
+</section>
+<footer>
+    <div class="footer1">
+        <ul id="moreWork" onclick="myworks()"><img src="../UX_UI_HW_19/images/more.png"></ul>
+        <ul class="worksection" id="pastwork">
+            <button id="cancel" onclick="cancelmyworks()"><img src="../UX_UI_HW_19/images/cancel.png"></button>
+            <button><a>SADHS</a></button>
+            <button id="ftcmore"><a>FTC Redesign</a></button>
+            <button><a>SeatMe</a></button>
+        </ul>
+
+        <script>
+            function myworks(){
+                var x1 = document.getElementById("pastwork");
+                if (x1.style.display === "flex") {
+                    x1.style.display = "none";
+                }else{
+                    x1.style.display = "flex";
+                }
+                var y1 = document.getElementById("moreWork");
+                if (y1.style.display === "none") {
+                    y1.style.display = "block";
+                }else{
+                    y1.style.display = "none";
+                }
+            }
+
+            function cancelmyworks(){
+                var x2 = document.getElementById("pastwork");
+                if (x2.style.display === "none") {
+                    x2.style.display = "flex";
+                }else{
+                    x2.style.display = "none";
+                }
+                
+                var y2 = document.getElementById("moreWork");
+                if (y2.style.display === "block") {
+                    y2.style.display = "none";
+                }else{
+                    y2.style.display = "block";
+                }
+            }
+        </script>
+
+    </div>
+    <div class="icon">
+        <button class="info"><a id="a2">
+            <img src="../UX_UI_HW_19/images/email.png" style="width: 40px;height: 40px;">
+        </a></button>
+        <button class="info"><a class="a1">
+            <img src="../UX_UI_HW_19/images/wechat.png">
+        </a></button>
+        <button class="info"><a class="a1">
+            <img src="../UX_UI_HW_19/images/instagram.png">
+        </a></button>
+        <button class="info"><a class="a1">
+            <img src="../UX_UI_HW_19/images/facebook.png">
+        </a></button>
+        <button class="info"><a class="a1">
+            <img src="../UX_UI_HW_19/images/twitter.png">
+        </a></button>
+        <button class="info"><a class="a1">
+            <img src="../UX_UI_HW_19/images/linkedIn.png">
+        </a></button>
+        <button class="info"><a id="a3">
+            <img src="../UX_UI_HW_19/images/weibo.png">
+        </a></button>
+    </div>
+</footer>
+<section class="mywork">
+    <div class="work1">
+        <div class="SADHS">
+            <h4 id="h44">Simcoe And District Humane Society</h4>
+            <h5>UX/UI Design, Case Study</h5>
+            <p>Redesign for Simcoe and District Humane Society website. Help users to adopt or volunteer for pets easier.</p>
+        </div>
+        <img src="../UX_UI_HW_19/images/SDHSpic.png" id="sadhspic">
+    </div>
+    <div class="work2">
+        <div class="FTC">
+            <h4 id="h44">Federal Trade Commission</h4>
+            <h5>UX/UI Design, Case Study</h5>
+            <p>Redesign for Federal Trade Commission homepage. Supported people report the fraud they have been through.</p>
+        </div>
+        <img src="../UX_UI_HW_19/images/FTCpic.png" id="ftcpic">
+    </div>
+    <div class="work3">
+        <div class="SeatMe">
+            <h4 id="h44">SeatMe</h4>
+            <h5>UX/UI Design, Case Study</h5>
+            <p>Reservation App for restaurants. SeatMe provides easy access to all information necessary to help you make the right decision.</p>
+        </div>
+        <img src="../UX_UI_HW_19/images/SeatMepic.png" id="seatmepic">
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,458 @@
+html, body {max-width: 90vw; max-height: 100vh;}
+div {width: 100%; height: 100%}
+
+.navi {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+
+#logo {
+    position: relative;
+    padding: 0;
+}
+
+#bar {
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 24px;
+    font-family: "DK Nouveau Crayon Regular";
+    position: absolute;
+    margin-top: 12px;
+}
+
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.navigation {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+}
+
+#items {
+    cursor: pointer;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    height: 36px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.w3-button {
+    font-size: 24px;
+    color: #231F20;
+    font-family: "DK Nouveau Crayon Regular";
+    text-decoration: none;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+a:nth-child(1){
+    width: 71px;
+}
+a:nth-child(2){
+    width: 101px;
+}
+a:nth-child(3){
+    width: 92px;
+}
+a:nth-child(4){
+    width: 100px;
+}
+
+/* section */
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Crayon Works DEMO Regular";
+    font-size: 96px;
+    color: #231F20;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Crayon Works DEMO Regular";
+    font-size: 64px;
+    margin-left: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #231F20;
+    margin: 1.2% 4%;
+}
+
+h3 {
+    margin-left: 80px;
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 36px;
+    font-weight: 300;
+    color: #A1A1A1;
+    padding: 0;
+    margin: 0% 4%;
+}
+
+#LineCat {
+    margin-bottom: -34px;
+    width: 100%;
+    padding: 10px;
+}
+
+#Line {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 19px;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.mainpage {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.titleinfo {
+    margin-bottom: 100px;
+}
+
+.hovering {
+    border-image: 5px url(../images/underline1.png);    
+    height: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: baseline;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    background-image: url(../images/white.png);
+    background-size: cover;
+}
+
+.item:hover {
+    background-image: url(../images/shadow.png);
+}
+ 
+#back {
+    background-image: white;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: 100% 100%;                             
+}
+
+#smallftc {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+#smallsdhs {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+#smallseatme {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+/* footer */
+
+.worksection {
+    display: none;
+    width: 40%;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+
+#moreWork {
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#ftcmore {
+    width: 172px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    align-items: center;
+}
+
+.footer1 {
+    width: 100%;
+    height: 42px;
+    display: block;
+    align-items: center;
+}
+
+.footer1 a {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "DK Nouveau Crayon Regular";
+    margin-left: 40px;
+}
+
+#cancel {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+.worksection button a {
+    padding: 0%;
+    margin-bottom: 16px;
+}
+
+.icon {
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.icon a {
+    width: 40px;
+    height: 40px;
+}
+
+
+.a1 {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    padding: 0%;
+}
+
+#a2 {
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+}
+
+#a3 {
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+}
+
+/* Section2 */
+
+h4 {
+    font-size: 64px;
+    font-family: "Crayon Works DEMO Regular";
+    margin: 0;
+    line-height: 85%;
+    font-weight: 300;
+    color: #231F20;
+}
+ 
+h4:hover {
+    text-decoration: line-through;
+}
+
+h5 {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 24px;
+    color: #A1A1A1;
+    margin: 2% 0;
+    line-height: 100%;
+    font-weight: 300;
+}
+
+p {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 24px;
+    color: #231F20;
+    margin: 4% 0;
+    line-height: 100%;
+    font-weight: 300;
+}
+
+.mywork {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 
+    'work1'
+    'work2'
+    'work3';
+    padding: 60px 5%;
+}
+
+.work1 {
+    grid-area: work1;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    'SADHS sadhspic';
+    margin: 0;
+}
+
+.work2 {
+    grid-area: work2;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    'ftcpic FTC';
+    margin: 10px 0;
+}
+
+.work3 {
+    grid-area: work3;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    'SeatMe seatmepic';
+    margin: 20px 0;
+}
+
+.SADHS {
+    grid-area: SADHS;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.FTC {
+    grid-area: FTC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.SeatMe {
+    grid-area: SeatMe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+#sadhspic {
+    grid-area: sadhspic;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#ftcpic {
+    grid-area: ftcpic;
+    width: 100%;
+    height: 100%;
+}
+
+#seatmepic {
+    grid-area: seatmepic;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mywork {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'SADHS'
+        'sadhspic'
+        'FTC'
+        'ftcpic'
+        'SeatMe'
+        'seatmepic';
+        margin: 60px 102px;
+    }
+    
+    .SADHS {
+        grid-area: SADHS;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .FTC {
+        grid-area: FTC;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .SeatMe {
+        grid-area: SeatMe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #sadhspic {
+        grid-area: sadhspic;
+    }
+    
+    #ftcpic {
+        grid-area: ftcpic;
+    }
+    
+    #seatmepic {
+        grid-area: seatmepic;
+    }
+  }
