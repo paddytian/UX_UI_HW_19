@@ -108,6 +108,10 @@ h2 {
     margin: 1.2% 4%;
 }
 
+h2 a {
+    color: #231F20;
+}
+
 h3 {
     margin-left: 80px;
     font-family: "DK Nouveau Crayon Regular";
